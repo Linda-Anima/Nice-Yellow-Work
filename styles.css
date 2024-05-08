@@ -1,8 +1,9 @@
-/* @media (max-width: 375px) {
+@media (min-width: 375.98px) and (max-width: 767.98px) { 
   .container{
-    margin-right: 20px;
+    justify-content: center;
+    
   }
-  } */
+}
 
 body{
  background-color: hsl(47, 88%, 63%);
@@ -11,24 +12,25 @@ body{
 .container{
   text-align: left;
   padding: 30px;
+  display: grid;
+  
+  
 }
 
 .card{
-  /* text-align: center; */
   justify-content: left;
   padding-left: 15px;
   background-color: hsl(0, 0%, 100%);
   border: 1.2px solid  hsl(0, 0%, 7%);
   border-radius: 4%;
   box-shadow: 5px 8px 1px hsl(0, 0%, 7%) ;
-  width: 380px;
+  width: 370px;
   height: 550px;
   margin: auto;
- 
 }
 
 .main{
-margin-top: 15px;
+ margin-top: 15px;
  border-radius: 10px;
 }
 
@@ -40,11 +42,14 @@ margin-top: 15px;
   margin-top: 15px;
 }
 
+.btn:hover{
+  background-color: hsl(0, 0%, 7%);
+  color: white;
+}
+
 h2, h3{
   color: hsl(0, 0%, 7%);
   font-family: "Figtree", sans-serif;
-  
-
 }
 
 h6{
@@ -67,7 +72,6 @@ p{
 .bottom{
   display: flex;
   margin-top: 30px;
-  
 }
 
 
